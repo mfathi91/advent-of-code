@@ -30,7 +30,7 @@ def main():
     for passport in passports:
         if passport.is_valid():
             valid_count += 1
-    print(valid_count) # 206
+    print(valid_count) # 123
 
 if __name__ == '__main__':
     main()
